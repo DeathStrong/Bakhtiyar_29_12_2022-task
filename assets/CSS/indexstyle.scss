@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+    width: 100%;
+    height: 100vh;
+}
+
+.main__head{
+    width: 31%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+
+    h2{
+        text-transform: capitalize;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 20px;
+        color: #737373;
+    }
+
+    .head__text__for__sale{
+
+        font-size: 18px;
+        color: #000000;
+        font-weight: 700;
+
+
+    }
+    button{
+        border: 1px solid;
+        border-color:#B1E2FE ;
+        background-color: #B1E2FE;
+        width: 91px;
+        height: 31px;
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #219CE2;
+    }
+}
+
+
+.offers {
+
+
+    display: flex;
+    width: 67%;
+    margin: 0 auto;
+    margin-top: 50px;
+
+
+
+
+    // .offers_list
+
+    &_list {
+        margin-top: 40px;
+        list-style: none;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.2px;
+
+        li{
+            margin-bottom: 18px;
+        }
+    }
+
+    // .offers__group
+
+    &__group {
+
+        background-color: #fff;
+        width: 327px;
+        height: 664px;
+        border: 1px solid;
+        border-color: #219CE2;
+        text-align: center;
+        border-radius: 8px;
+        margin-right: 10px;
+
+    }
+
+    &__group:hover{
+        background-color: #252B42;
+        color: #fff;
+        scale: 1.1;
+        button{
+            background-color: #23A6F0;
+        }
+        .offers__subtitle{
+            color: #fff;
+        }
+        transition: all linear 0.40s;
+        cursor: pointer;
+    }
+
+    // .offers__title
+
+    &__title {
+        font-weight: 700;
+        font-size: 24px;
+        margin-top: 50px;
+        margin-bottom: 35px;
+    }
+
+    // .offers__subtitle
+
+    &__subtitle {
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #737373;
+    margin-bottom: 40px;
+
+    }
+
+    // .offers__price
+
+    &__price {
+        font-weight: 700;
+        font-size: 40px;
+        letter-spacing: 0.2px;
+        color: #23A6F0;
+    }
+
+    // .offers__value
+
+    &__value {
+        font-weight: 700;
+        font-size: 24px;
+        letter-spacing: 0.1px;
+        color: #23A6F0;
+    }
+
+    // .offers__info
+
+    &__info {
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.2px;
+        color: #8EC2F2;
+    }
+
+    // .offers__button
+
+    &__button {
+        width: 246px;
+        height: 52px;
+        background: #252B42;
+        border-radius: 5px;
+
+
+        a{
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 22px;
+            letter-spacing: 0.2px;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    }
+
+}
+
+
